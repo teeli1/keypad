@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Result</title>
+    <style>
+        .result-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="result-container">
+    <h2>Result</h2>
+    <p><strong>User Input Hashes:</strong> <span th:text="${inputHashes}"></span></p>
+    <p><strong>Base64 Encoded Value:</strong> <span th:text="${encodedValue}"></span></p>
+    <p><strong>Timestamp:</strong> <span th:text="${timestamp}"></span></p>
+</div>
+
+</body>
+</html>
